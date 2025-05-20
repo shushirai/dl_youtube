@@ -3,7 +3,7 @@ import argparse
 from yt_dlp import YoutubeDL
 
 psr = argparse.ArgumentParser()
-psr.add_argument('--url_file', default='urls.txt')
+psr.add_argument('--url_file', default='../urls.txt')
 psr.add_argument('--output_dir', default='../downloads')
 args = psr.parse_args()
 
