@@ -1,0 +1,7 @@
+output_dir: "./downloads"
+min_height: 2160
+
+# mp4縛りを外して、使える最高画質＋音声にフォールバック
+format: "bestvideo+bestaudio/best"
+
+merge_output_format: "mp4"
